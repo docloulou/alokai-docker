@@ -54,10 +54,10 @@ services:
       args:
         TAG_BRANCH: "main"
         NODE_VERSION: 20.10
-        REDIS_URL: "redis://redis:6379"
+        REDIS_URL: "redis://redis:6380"
     container_name: vsf
     ports:
-      - 3000:3000
+      - 3050:3000
     image: vsf-sfui2
     restart: unless-stopped
     volumes:
