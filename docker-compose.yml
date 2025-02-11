@@ -57,7 +57,7 @@ services:
         REDIS_URL: "redis://redis:6379"
     container_name: vsf
     ports:
-      - 3000:3000
+      - 3050:3000
     image: vsf-sfui2
     restart: unless-stopped
     volumes:
